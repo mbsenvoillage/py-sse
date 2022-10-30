@@ -8,5 +8,8 @@ flask = "*"
 
 [dev-packages]
 
+[scripts]
+start = "python3 -m flask --app server run"
+
 [requires]
 python_version = "3.8"
